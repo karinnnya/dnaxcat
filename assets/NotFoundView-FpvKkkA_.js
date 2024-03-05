@@ -1,0 +1,1 @@
+import{_ as s,l as n,S as t,T as o,o as r,c as p,a,I as l}from"./index-WV4y7xNQ.js";n.registerPlugin(t,o);const i={};function c(e,u,g,d,m,f){return r(),p("div",null,[a("div",null,[a("p",null," 第一個gamma："+l(e.gamma),1),a("p",null,"第二個beta："+l(e.beta),1),a("p",null,"第二個aplha："+l(e.aplha),1)])])}const S=s(i,[["render",c]]);export{S as default};
