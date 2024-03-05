@@ -1,0 +1,53 @@
+@font-face {
+  font-family: FakePearl-Regular;
+  src:
+    url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2)
+      format('woff2'),
+    url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff)
+      format('woff');
+}
+
+html,
+body {
+  font-family: 'FakePearl-Regular';
+  box-sizing: border-box;
+  overflow-x: hidden;
+  /* height: 100%;
+  margin: 0; */
+  /* padding: 0 !important;
+    height: 100%; */
+}
+/* body {
+  overflow-x: hidden;
+} */
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.rotateY{
+  transform: rotateY(180deg);
+}
